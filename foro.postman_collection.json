@@ -1,0 +1,55 @@
+{
+	"info": {
+		"_postman_id": "cd7be356-0318-4b6f-a314-cd54cdfd5247",
+		"name": "foro",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "31581392"
+	},
+	"item": [
+		{
+			"name": "topicos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "localhost:8080/topicos"
+			},
+			"response": []
+		},
+		{
+			"name": "nuevo Topico",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": "localhost:8080/topicos/crear"
+			},
+			"response": []
+		},
+		{
+			"name": "eliminar topico",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": "localhost:8080/topicos/delete/"
+			},
+			"response": []
+		},
+		{
+			"name": "buscar topico",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "localhost:8080/topicos/"
+			},
+			"response": []
+		},
+		{
+			"name": "editatar topico",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": "localhost:8080/topicos/editar/"
+			},
+			"response": []
+		}
+	]
+}
